@@ -7,6 +7,7 @@ __pycache__/
 # C extensions
 *.so
 
+.idea/*
 
 # Distribution / packaging
 .Python
@@ -213,10 +214,6 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
-!/views/public/
-!/views/build/
-!/views/package-lock.json
-
-!/views/node_modules/
-
-!/views/build/
+/views/package-lock.json
+/views/node_modules/*
+/views/build/*
